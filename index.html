@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Potato Bistro - Menu</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Logo" class="logo-img">
+      <span>Potato Bistro</span>
+    </div>
+    <div class="navbar-search">
+      <input type="text" placeholder="Search dishes..." id="search-bar" />
+      <button id="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="navbar-icons">
+      <span id="user-greet"></span>
+      <a href="cart.html" title="Cart" class="cart-icon" id="cart-link">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cart-count">0</span>
+      </a>
+      <a href="#" id="logout-link" title="Logout"><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+  </nav>
+  <h1>Welcome to Our Restaurant</h1>
+  <div class="container">
+    <div class="menu">
+      <h2>Menu</h2>
+      <ul id="menu-list"></ul>
+    </div>
+  </div>
+  <script src="menu.js"></script>
+</body>
+</html>
+
+

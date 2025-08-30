@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Potato Bistro - Cart</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Logo" class="logo-img">
+      <span>Potato Bistro</span>
+    </div>
+    <div class="navbar-icons">
+      <span id="user-greet"></span>
+      <a href="#" id="logout-link" title="Logout"><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+  </nav>
+  <h1>Your Cart</h1>
+  <div class="container">
+    <div class="cart">
+      <ul id="cart-list"></ul>
+      <div class="total">
+        Total: $<span id="cart-total">0.00</span>
+      </div>
+      <button id="back-menu">Back to Menu</button>
+    </div>
+  </div>
+  <script src="cart.js"></script>
+</body>
+</html>
